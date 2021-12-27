@@ -42,7 +42,7 @@ public class Menu {
                 }
                 case 4: {
                     Exercicio4 ex4 = new Exercicio4();
-                   // ex4.executar();
+                    ex4.executar();
                     break;
                 }
                 case 5: {

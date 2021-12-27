@@ -9,7 +9,7 @@ public class Exercicio2 {
         long n = scanner.nextInt(); // 4
         System.out.print("Digite o múltiplo desejado: ");
         long m = scanner.nextInt(); // 4
-        for (long i = 1; i < n; i++) {
+        for (long i = 1; i <= n; i++) {
             System.out.println(m * i);
         }
     }

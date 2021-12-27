@@ -10,8 +10,8 @@ public class EhPrimo {
             }
 
             // Verifica se o número tem outro divisor alem de 1 e ele mesmo
-            for (long i=3; i<numero; i++){
-                if (numero % i == 0){
+            for (long ii=3; ii<numero; ii++){
+                if (numero % ii == 0){
                     return false;
                 }
             }

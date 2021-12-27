@@ -9,13 +9,18 @@ public class Exercicio4 {
         Scanner limite = new Scanner(System.in);
         long n = limite.nextInt();
         if (n == 1) {
-            System.out.println("O número 2 é primo");
+            System.out.println("2 - é primo");
         } else{
-            for (long i = 3; i <= n; i++){
-                boolean resp = ehPrimo(i);
+            System.out.println("2 - é primo / pos - 1");
+            long cont=2;
+            long pos=3;
+            while (cont <= n) {
+                boolean resp = ehPrimo(pos);
                 if(resp == true) {
-                    System.out.println("O Numero " + i + "é Primo");
-                }
+                    System.out.println(pos + " - é Primo / pos - " + cont);
+                    cont++;
+                 }
+                pos++;
             }
         }
     }
