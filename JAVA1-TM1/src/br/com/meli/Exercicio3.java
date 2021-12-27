@@ -11,12 +11,21 @@ public class Exercicio3 {
 
         System.out.print("Informe um número para saber se ele é primo: ");
         long n = entrada.nextInt();
+        if (n > 2){
 
-        boolean resp = ehPrimo(n);
-        if(resp == true){
-            System.out.println("O Numero informado é Primo");
-        }else{
-            System.out.println("O Numero informado não é Primo");
+            boolean resp = ehPrimo(n);
+            if(resp == true) {
+                System.out.println("O Numero informado é Primo");
+            }else{
+                System.out.println("O Numero informado não é Primo");
+            }
+        } else {
+            if (n < 2) {
+                System.out.println("O Numero informado não é Primo");
+
+            } else {
+                System.out.println("O Numero informado é Primo");
+            }
         }
     }
 }
