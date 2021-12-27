@@ -70,7 +70,7 @@ public class Menu {
         }else{
             Runtime.getRuntime().exec("clear");}*/
 
-        Runtime.getRuntime().exec("cls");
+      //  Runtime.getRuntime().exec("cls");
         System.out.println("\n#  #  MENU  #  #");
         System.out.println("1 - Executa exercício 1");
         System.out.println("2 - Executa exercício 2");

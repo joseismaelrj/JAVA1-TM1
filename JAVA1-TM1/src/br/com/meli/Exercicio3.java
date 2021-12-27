@@ -13,7 +13,7 @@ public class Exercicio3 {
         long n = entrada.nextInt();
 
         boolean resp = ehPrimo(n);
-        if(resp == false){
+        if(resp == true){
             System.out.println("O Numero informado é Primo");
         }else{
             System.out.println("O Numero informado não é Primo");

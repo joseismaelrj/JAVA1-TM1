@@ -6,8 +6,13 @@ public class EhPrimo {
 
             // verifica se o numero informado é divisiveo por 2
             if (numero % 2 == 0){
-                return true;
+                return false;
             }
-            return false;
+            for (long i=3; i<numero; i++){
+                if (numero % i == 0){
+                    return false;
+                }
+            }
+            return true;
         }
 }
