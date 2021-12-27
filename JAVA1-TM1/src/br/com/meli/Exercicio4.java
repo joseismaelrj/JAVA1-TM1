@@ -9,15 +9,15 @@ public class Exercicio4 {
         Scanner limite = new Scanner(System.in);
         long n = limite.nextInt();
         if (n == 1) {
-            System.out.println("2 - é primo");
+            System.out.println("2 - é primo / posição - 1");
         } else{
-            System.out.println("2 - é primo / pos - 1");
+            System.out.println("2 - é primo / posição - 1");
             long cont=2;
             long pos=3;
             while (cont <= n) {
                 boolean resp = ehPrimo(pos);
                 if(resp == true) {
-                    System.out.println(pos + " - é Primo / pos - " + cont);
+                    System.out.println(pos + " - é Primo / posição - " + cont);
                     cont++;
                  }
                 pos++;
