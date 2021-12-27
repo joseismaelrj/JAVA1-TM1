@@ -7,9 +7,9 @@ import static br.com.meli.EhPrimo.ehPrimo;
 public class Exercicio3 {
 
     public void executar () {
-        Scanner entrada = new Scanner(System.in);
 
         System.out.print("Informe um número para saber se ele é primo: ");
+        Scanner entrada = new Scanner(System.in);
         long n = entrada.nextInt();
         if (n > 2){
 
