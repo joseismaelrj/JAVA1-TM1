@@ -15,8 +15,11 @@ public class Exercicio4 {
             long cont=2;
             long pos=3;
             while (cont <= n) {
-                boolean resp = ehPrimo(pos);
-                if(resp == true) {
+               // boolean resp = ehPrimo(pos);
+                //if(resp == true) {
+
+                if(ehPrimo(pos)) {
+
                     System.out.println(pos + " - é Primo / posição - " + cont);
                     cont++;
                  }
